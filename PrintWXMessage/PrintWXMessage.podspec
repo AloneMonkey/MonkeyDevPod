@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
   spec.author           = { "AloneMonkey" => "liupeiqing1993@163.com" }
   spec.social_media_url = "http://weibo.com/xiaoqing28"
   spec.platform         = :ios, "8.0"
-  spec.source           = { :http => "xxx"}
+  spec.source           = { :http => "https://github.com/AloneMonkey/MonkeyDevPod/raw/master/PrintWXMessage/LatestBuild/PrintWXMessage.zip"}
   spec.vendored_frameworks = "PrintWXMessage.framework"
 end
