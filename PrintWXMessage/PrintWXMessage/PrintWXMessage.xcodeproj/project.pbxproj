@@ -6,6 +6,10 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E68024731F28A7AF008B1D2D /* PrintWXMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E68024721F289256008B1D2D /* PrintWXMessage.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E68024661F28921A008B1D2D /* PrintWXMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrintWXMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E680246A1F28921A008B1D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E68024731F28A7AF008B1D2D /* PrintWXMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +303,7 @@
 				E68024701F28921A008B1D2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
