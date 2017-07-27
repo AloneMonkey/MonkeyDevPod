@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "MonkeyDevPod"
-  spec.version          = "1.0.0"
+  spec.version          = "2.0.0"
   spec.summary          = "A example pod for MonkeyDev"
   spec.description      = <<-DESC
                           - A example pod for MonkeyDev
@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
   spec.author           = { "AloneMonkey" => "liupeiqing1993@163.com" }
   spec.social_media_url = "http://weibo.com/xiaoqing28"
   spec.platform         = :ios, "8.0"
-  spec.source           = { :http => "https://github.com/AloneMonkey/MonkeyDevPod/raw/master/MonkeyDevPod/LatestBuild/MonkeyDevPod.zip"}
-  spec.vendored_frameworks = "MonkeyDevPod.framework"
+  spec.source           = { :git => "https://github.com/AloneMonkey/MonkeyDevPod.git", :tag => spec.version.to_s }
+  spec.source_files     = "MonkeyDevPod/MonkeyDevPod/Classes/*.{h,m}"
+  spec.requires_arc     = true
 end
